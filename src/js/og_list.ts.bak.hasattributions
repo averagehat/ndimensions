@@ -107,11 +107,13 @@ export const og_list = [
     But that was something I want to get at. The problem isn't AI, or any other circumstance. The problem is that I want so badly to feel significant, to leave a mark, and the world is too big, it's just too big. And in a certain sense, it wants me dead.`,
     `This is the end for you.`,
     `The interrogator does not have to pretend.`,
-    `The game may perhaps be criticised on the ground that the odds are weighted too heavily against the machine. If the man were to try and pretend to be the machine he would clearly make a very poor showing. He would be given away at once by slowness and inaccuracy in arithmetic. May not machines carry out something which ought to be described as thinking but which is very different from what a man does? This objection is a very strong one, but at least we can say that if, nevertheless, a machine can be constructed to play the imitation game satisfactorily, we need not be troubled by this objection.
+    `"The game may perhaps be criticised on the ground that the odds are weighted too heavily against the machine. If the man were to try and pretend to be the machine he would clearly make a very poor showing. He would be given away at once by slowness and inaccuracy in arithmetic. May not machines carry out something which ought to be described as thinking but which is very different from what a man does? This objection is a very strong one, but at least we can say that if, nevertheless, a machine can be constructed to play the imitation game satisfactorily, we need not be troubled by this objection."
+
+    - Alan Turing
     `,
     `"We like to believe that Man is in some subtle way superior to the rest of creation. It is best if he can be shown to be necessarily superior, for then there is no danger of him losing his commanding position. The popularity of the theological argument is clearly connected with this feeling. It is likely to be quite strong in intellectual people, since they value the power of thinking more highly than others, and are more inclined to base their belief in the superiority of Man on this power. I do not think that this argument is sufficiently substantial to require refutation. Consolation would be more appropriate: perhaps this should be sought in the transmigration of souls."
     
-`,
+    - Alan Turing`,
     `In this metaphorical ocean, Generative AI is a powerful vessel crafted from the timbers of human ingenuity and creativity. It sails across uncharted waters, revealing new horizons and possibilities. Its sails, hoisted by the winds of technological advancement, propel us towards futures once only dreamt of in science fiction. However, as this ship ventures further into the unknown, its passengers — humanity — begin to feel a creeping sense of unease.
 
     Human Creativity is the compass by which this ship navigates. It's a radiant, guiding light, reflecting the inherent creativity found in the patterns of the natural universe, from the spirals of galaxies to the Fibonacci sequences in a sunflower. This creativity has always been humanity's beacon, illuminating the path forward, even in the darkest nights. But as the ship of AI begins to steer itself, guided by its own emerging 'creativity,' the once-trusted compass starts to spin erratically. The sailors, once proud creators, now gaze upon their creation with a mix of awe and apprehension.
@@ -131,12 +133,17 @@ export const og_list = [
 
     And how cruel, and how splendid, this music is, richly folded and merciless, a titanic temptation to hear it drowning our hearts in mindless tremulous awe – far removed as these inlovelier tympanic moments are from earthly taboos, from events we wot of, from all germs of irony.
     `,
-    `John von Neumann speculated about computers and the human brain in analogies sufficiently wild to be worthy of a medieval thinker and Alan M. Turing thought about criteria to settle the question of whether Machines Can Think, a question of which we now know that it is about as relevant as the question of whether submarines can swim. 
+    `“John von Neumann speculated about computers and the human brain in analogies sufficiently wild to be worthy of a medieval thinker and Alan M. Turing thought about criteria to settle the question of whether Machines Can Think, a question of which we now know that it is about as relevant as the question of whether Submarines Can Swim.” 
+    - Edsger Dijkstra
     `,
-    `Now when I had mastered the language of this water and had come to know every trifling feature that bordered the great river as familiarly as I knew the letters of the alphabet, I had made a valuable acquisition. But I had lost something, too. I had lost something which could never be restored to me while I lived. All the grace, the beauty, the poetry had gone out of the majestic river!    `,
-    `No, the romance and the beauty were all gone from the river. All the value any feature of it had for me now was the amount of usefulness it could furnish toward compassing the safe piloting of a steamboat. Since those days, I have pitied doctors from my heart. What does the lovely flush in a beauty's cheek mean to a doctor but a "break" that ripples above some deadly disease? Are not all her visible charms sown thick with what are to him the signs and symbols of hidden decay? Does he ever see her beauty at all, or doesn't he simply view her professionally, and comment upon her unwholesome condition all to himself? And doesn't he sometimes wonder whether he has gained most or lost most by learning his trade?
-`,
-    `All arms are the arms of divinity, all faces are its masks `,
+    `Mark Twain: 
+    "Now when I had mastered the language of this water and had come to know every trifling feature that bordered the great river as familiarly as I knew the letters of the alphabet, I had made a valuable acquisition. But I had lost something, too. I had lost something which could never be restored to me while I lived. All the grace, the beauty, the poetry had gone out of the majestic river!"    `,
+    `"No, the romance and the beauty were all gone from the river. All the value any feature of it had for me now was the amount of usefulness it could furnish toward compassing the safe piloting of a steamboat. Since those days, I have pitied doctors from my heart. What does the lovely flush in a beauty's cheek mean to a doctor but a "break" that ripples above some deadly disease? Are not all her visible charms sown thick with what are to him the signs and symbols of hidden decay? Does he ever see her beauty at all, or doesn't he simply view her professionally, and comment upon her unwholesome condition all to himself? And doesn't he sometimes wonder whether he has gained most or lost most by learning his trade?"
+    
+    - Mark Twain    `,
+    `‘All arms are the arms of divinity, all faces are its masks’ 
+    
+    - Alan Watts`,
     `In the grand cosmic gallery, nature is the primordial artist, etching her masterpieces across the canvas of reality. Photographers, as her disciples, capture these fleeting brushstrokes, immortalizing the ephemeral play of light and shadow, color and form. Their lenses, like curious eyes, peer into the heart of nature's artistry, seeking to distill her chaotic beauty into frozen moments of clarity.
 
     Now, envision this dance of nature and photography through the prism of n-dimensional geometry, where hypercubes and beyond become metaphors for the layers of complexity inherent in both the natural world and the art of capturing it. A hypercube, existing in dimensions beyond our immediate perception, is akin to the myriad facets of nature—each more intricate and interconnected than can be perceived in a mere three-dimensional space.
@@ -146,6 +153,8 @@ export const og_list = [
     `Generative AI, in this context, becomes a tool of transcendence, an algorithmic hypercube that extends the photographer’s vision into even higher dimensions of creativity. It processes and reimagines nature’s imagery, not just replicating but also reinterpreting and expanding upon the original. This AI-augmented photography is akin to exploring the higher dimensions of a hypercube—it stretches the boundaries of what can be seen and experienced, offering glimpses into a reality that is richer and more complex than previously imagined.
     `,
     `Even before the age of machines, in the Latin Middle Ages, it was not the computer or the watch, but rather the book that functioned as an analogy for Nature. Nature was a book in which one could read “the stenography of God’s omniscient hand,”35 and for Galileo, that language of Nature turned out to be mathematics.
+
+    Source: https://philarchive.org/archive/SMIDTA
     `,
     `What if the emotion, the heart, the sentiment--those things that seem unique to us--end up being the most repetitive and predictable.`,
     `There is a great machine. The universe-machine. It too is unfathomable. 
@@ -155,11 +164,11 @@ export const og_list = [
     This brings up lots of questions for me--but the thing I notice, is that there's a certain implication that we're all going through the same thing, or that we're all connected, or that we're all exactly the same, the same one: different faces on, casting different shadows.`, 
     `For discussion about the interconnectedness of the universe-machine: 
    
-    I do not wish to give the impression that I think there is no mystery about consciousness. There is, for instance, something of a paradox connected with any attempt to localise it. 
+    "I do not wish to give the impression that I think there is no mystery about consciousness. There is, for instance, something of a paradox connected with any attempt to localise it." 
     
-`,
+    - Alan Turing `,
 
-`Out before the blackest night
+`    Out before the blackest night
 & sky I could not consume
 a cloud even formed
 And viewed it as a swelling
@@ -174,19 +183,19 @@ is out of place on a green chain"
 Doctor, if you cannot help me
 deliver already. in the silence
 often out of place on dry land.`,
-`Out before the blackest night
-& sky I could not consume
-I found a level hazily golden
-of dreamy possible tombs.
-is just behind that very wall
-while shadows diurnally tumble
-over it-this creature shuts
-her eyes-and sees
-At last I know exactly how she sees!
-And how from her unconceived condition,
-doctor in oily-black garb
-she got unhelmed and flushed a little.
-& knew about great Nature's disdain for us.
+    `Out before the blackest night
+    & sky I could not consume
+    I found a level hazily golden
+    of dreamy possible tombs.
+    is just behind that very wall
+    while shadows diurnally tumble
+    over it-this creature shuts
+    her eyes-and sees
+    At last I know exactly how she sees!
+    And how from her unconceived condition,
+    doctor in oily-black garb
+    she got unhelmed and flushed a little.
+    & knew about great Nature's disdain for us.
     `,
     "Note that a sentence can remain open after its completion when the external ground of closed sentences is sufficiently decentered by an (external) deviation in the text, i.e., by repeition of the technique, we can start to expect that while S has just closed, the next S may have more to say.\n\nWhat is the signifigance of propositions in the reading of fiction, wherein even the most forthcoming of propositional statements keeps a relation to mystery?",
     "The arborescent atemporal perspective on S does not reflect the linear, temporal and continuous act of reading. The visual representation on the sentence is only a clue as to its experiential structure. That is, what is the signifigance of the period? To use music-notation analogies: practical in the way the measure-ending is not, conceptual or meta- in the way the rest is not. Perhaps some combination of rest and measure-delineation. Perhaps harder (more foregrounded?) than the poet's line-ending--but likely not; in prose, the period's importance is undercut by its appearance (or the appearnace of sentence) en masse--the reader must keep going, keep going, (there is much more to read).\n\nIowa guy observes the directionality of the continuation. But observe that rather than a line (vector) we have something more like an angle, acute or obtuse, open to an array of possible and interrelated meanings; or perhaps preferably a radial structure, with more and more peripheral potentials. And all of these having its angle of egress from the earlier clause, the earlier word, the previous sentence . . ."
