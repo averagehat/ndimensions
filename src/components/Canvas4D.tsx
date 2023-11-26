@@ -18,12 +18,13 @@ interface PropTypes {
   height: number
   speed: number
   selectedPlanes: pName[]
+  rotation: number
 }
 
 type rotationSet = [number, number, number, number, number, number]
 
 let rotation = 0
-
+const SCALE = 700
 const vertices: Point4D[] = []
 
 // Generate points in R4. All dimensions are ±0.5 from 0.
@@ -61,7 +62,7 @@ const drawEdge = (p5: p5Types, p1: r2pt, p2: r2pt): void => {
   p5.line(...p1, ...p2)
 }
 
-const Canvas = ({ width, height, speed, selectedPlanes }: PropTypes): JSX.Element => {
+const Canvas = ({ width, height, speed, selectedPlanes, rotation }: PropTypes): JSX.Element => {
   const setup = (p5: p5Types, canvasParentRef: Element): void => {
     p5.createCanvas(width, height).parent(canvasParentRef)
   }
@@ -88,7 +89,8 @@ const Canvas = ({ width, height, speed, selectedPlanes }: PropTypes): JSX.Elemen
       const projectedTo3D = composeMatrices([transform4d.persp(1.2, rotated.get([3, 0])), rotated])
       const projectedTo2D = composeMatrices([transform3d.persp(2, projectedTo3D.get([2, 0])), projectedTo3D])
 
-      const coords: r2pt = multiply([projectedTo2D.get([0, 0]), projectedTo2D.get([1, 0])], 200) // scale from mathematical unit scale to 200 px
+      const coords: r2pt = multiply([projectedTo2D.get([0, 0]),
+                projectedTo2D.get([1, 0])], SCALE) // scale from mathematical unit scale to 200 px
       pts.push(coords)
 
       p5.stroke('#000000')
@@ -156,7 +158,7 @@ const Canvas = ({ width, height, speed, selectedPlanes }: PropTypes): JSX.Elemen
       drawEdge(p5, pts[i], pts[i + 8])
     }
 
-    rotation += 0.04 * speed
+    // rotation += 0.04 * speed
   }
 
   return <Sketch windowResized={windowResized} setup={setup} draw={draw}/>

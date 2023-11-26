@@ -1,0 +1,24 @@
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto;
+     height: 100vh; /* Full viewport height 
+     
+canvas { postition: absolute; }
+     
+     */ 
+}
+.entry {
+  background-color: #ebebeb;
+  font-size: 20px;
+}
+.layout{
+    position: absolute;
+    width:50%;
+    height:50%;
+  }
+#root {
+  height: 100%;
+}
+{/* // .content { /* Styles for your content  */}
