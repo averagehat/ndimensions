@@ -107,12 +107,11 @@ const entry = full_list[idx]
   const lines = entry.split('\n') //  "HI THERE BIG BOY\nAndYOU".split('\n')
  // term_data.description.split('\n');
    // <Typewriter text="This is a default text without any extra props" />
+  // <h2> {ogCount}     </h2> <h2> {idx}     </h2>
   return ( // <Box sx={{ flex: 1}}> </Box> // <div className="centered-container"> // after line: {index !== lines.length - 1 && <br />}
 
  
  <div className="layout ">
-  <h2> {ogCount}     </h2>
-  <h2> {idx}     </h2>
       {lines.map((line, index) => (
           <> 
             <span  className="entry"> {line} <br/> </span>
