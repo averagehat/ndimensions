@@ -137,9 +137,13 @@ I drank ruddy light from occidental sun drunk with forgotten ancestors from unde
     ` Poems are written, you see, using words as blocks with which to build (the word is the poem, if you like). Words (used as analogical predicates, or unpredicated names) are glued together so as to form logical propositions (the river is things moving down = the poem). Analogical propositions, like this last one, may be combined so as to form propositions of a greater degree of complexity (the river is things moving down = beauty's cheek = the poem). You see how we get from the simple to the rich, from the analogical to the logical? We may note that even the simple propositions have a degree of complexity: the word is not at one with itself; one must already have taken sides, and chose between the noun and the verb, the adjective and the adverb, etc. We may note, furthermore, that combinations are possible here as well: we can compose propositions of degree three, four, etc.; and we can also compose propositions of degree two or three, so as to produce a mixed type. Let us not dwell on the mixed type (propositions of degree two or three) for the time being. Rather, let us try to determine the propositions of degree two, that is, propositions
     
 `,
-    `I met with a writer earlier this year. He complained about my story: "The thing is, it has no heart. That's the problem with AI. I didn't." 
-    "Less than five percent of this is AI-generated," I said. But it was difficult to concentrate.
-    Obviously, I had been discovered. How had he known? Was it really the story? Or was there so much, or was there something robotic about me--the fear? It must make me so.
+    `I met with an established writer last year. He said this about my story: "The thing is, it has no heart. That's the problem with AI." 
+    
+    "Well," I said, "less than five percent of this is AI-generated." I tried to kept talking. But it was difficult to concentrate.
+    
+    Something had been discovered. What did he known? Was it really the story? Or was there too much--well. 
+    
+    Was there something robotic about me? All my fear. It must make me so. Well.
     "Well," I said, and turned off.
     
 `,
