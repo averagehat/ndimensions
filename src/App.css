@@ -10,11 +10,14 @@ canvas { postition: absolute; }
   background-color: #ebebeb;
      */ 
 }
+.entryParent {
+ padding: 10px;
+}
 .entry {
   /* background-color: #ffff;*/
   color: black;
-  /*font-family: bold;*/
-  font-weight: bold;
+  font-family: bold;
+  /*font-weight: bold;*/
   font-size: 23px;
 }
 .layout{

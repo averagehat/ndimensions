@@ -1,11 +1,11 @@
 export const og_list = [
   ` The new form of the problem can be described in terms of a game which we call the 'Imitation Game.' 
   
-  It is played with three people, a man (A), a woman (B), and an interrogator (C) who may be of either sex. The interrogator stays in a room apart front the other two. The object of the game for the interrogator is to determine which of the other two is the man and which is the woman. He knows them by labels X and Y, and at the end of the game he says either "X is A and Y is B" or "X is B and Y is A." The interrogator is allowed to put questions to A and B thus:
+  It is played with three people, a man (A), a woman (B), and an interrogator (C) who may be of either sex. The interrogator stays in a room apart from the other two. The object of the game for the interrogator is to determine which of the other two is the man and which is the woman. He knows them by labels X and Y, and at the end of the game he says either "X is A and Y is B" or "X is B and Y is A." The interrogator is allowed to put questions to A and B thus:
 
-  C: Will X please tell me the length of his or her hair?
+  C: Will A please tell me the length of his or her hair?
 
-  Now suppose X is actually A, then A must answer. It is A's object in the game to try and cause C to make the wrong identification. His answer might therefore be: "My hair is shingled, and the longest strands are about nine inches long."
+  Then A must answer. It is A's object in the game to try and cause C to make the wrong identification. His answer might therefore be: "My hair is shingled, and the longest strands are about nine inches long."
   
   In order that tones of voice may not help the interrogator the answers should be written, or better still, typewritten. The ideal arrangement is to have a teleprinter communicating between the two rooms. Alternatively the question and answers can be repeated by an intermediary. 
   

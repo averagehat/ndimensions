@@ -51,7 +51,7 @@ const App = (): JSX.Element => {
   const [fourD, setFourD] = useState(['/', '/4d'].includes(pathname))
   const [speed, setSpeed] = useState(0)
   const [selectedAxes, setSelectedAxes] = useState(['x', 'y', 'z'] as aName[])
-  const [selectedPlanes, setSelectedPlanes] = useState(['yz', 'xw'] as pName[])
+  const [selectedPlanes, setSelectedPlanes] = useState(['yz', 'xw', 'zw'] as pName[])
   var [width, height] = useDimensions()
   const primary = '#434a91'
   // const [width, height] = [1000, 1000]
@@ -70,6 +70,7 @@ const App = (): JSX.Element => {
   
   const rotatables  = ['zw', 'yw', 'yz', 'xw', 'xz', 'xy']
   const anim_speed = 2
+
   //var angleCount = Math.floor(1 + Math.random() * (rotatables.length-1))
   //var planes = getRandomElementsFromArray(rotatables, angleCount)
   //console.log(planes)
@@ -94,7 +95,7 @@ const App = (): JSX.Element => {
             requestAnimationFrame(animateElement);
           } else {
             // Animation has finished
-            var angleCount = Math.floor(1 + Math.random() * (rotatables.length-1))
+            var angleCount = Math.floor(3 + Math.random() * (rotatables.length-1))
             var planes = getRandomElementsFromArray(rotatables, angleCount)
             console.log(planes)
             setSelectedPlanes(planes as pName[])

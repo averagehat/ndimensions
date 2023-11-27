@@ -114,16 +114,16 @@ const entry = full_list[idx]
  <div className="layout fade-in">
       {lines.map((line, index) => (
           <> 
-            <span  className="entry"> {line} <br/> </span>
+            <span key={index} className="entry"> {line} <br/> </span>
  </>
       ))}
-  <Grid container spacing={14}>
-    <Grid>
+  <Grid container spacing={2}>
+    <Grid xs={4}>
    <ButtonGroup  size="large" aria-label="large button group">
-      <Button onClick={changeIdx} color="warning" variant="contained">Man         </Button>
+      <Button onClick={changeIdx} color="error" variant="contained">Man         </Button>
   </ButtonGroup>
  </Grid>
- <Grid>
+ <Grid xs={3}>
    <ButtonGroup  size="large" aria-label="large button group">
       <Button onClick={changeIdx} color="error" variant="contained">           Machine</Button>
   </ButtonGroup>
