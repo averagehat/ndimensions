@@ -111,7 +111,7 @@ const entry = full_list[idx]
   return ( // <Box sx={{ flex: 1}}> </Box> // <div className="centered-container"> // after line: {index !== lines.length - 1 && <br />}
 
  
- <div className="layout ">
+ <div className="layout fade-in">
       {lines.map((line, index) => (
           <> 
             <span  className="entry"> {line} <br/> </span>

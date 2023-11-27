@@ -7,18 +7,67 @@
      
 canvas { postition: absolute; }
      
+  background-color: #ebebeb;
      */ 
 }
 .entry {
-  background-color: #ebebeb;
-  font-size: 20px;
+  /* background-color: #ffff;*/
+  color: black;
+  /*font-family: bold;*/
+  font-weight: bold;
+  font-size: 23px;
 }
 .layout{
+
+-webkit-animation: fadein 8s; /* Safari, Chrome and Opera > 12.1 */
+-moz-animation: fadein 8s; /* Firefox < 16 */
+ -ms-animation: fadein 8s; /* Internet Explorer */
+  -o-animation: fadein 8s; /* Opera < 12.1 */
+     animation: fadein 8s;
+    /*overflow-y:auto;*/
+    overflow: auto;
     position: absolute;
     width:50%;
-    height:50%;
+    height:100%;
+    background-color: rgba(250, 250, 250, 1);
+    /*
+    color: rgba(250, 250, 250, 1.5);
+    color: rgba(212, 212, 145);*/
   }
 #root {
   height: 100%;
 }
 {/* // .content { /* Styles for your content  */}
+.buttons {
+  float: right;
+  padding-right: 30%;
+  padding-left: 20%;
+  width: 60px;
+  margin-bottom: 5px;
+}
+
+@keyframes fadein {
+
+0% {opacity:0;
+}
+80% {opacity:0;
+}
+100% {opacity:1;
+}
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+/*
+  transition: opacity 0.5s ease;
+  opacity: 1; */
+.fade-in { }

@@ -42,18 +42,18 @@ for (let i = 0; i < 16; i++) {
 type r2pt = [number, number]
 
 const colors = [
-  'rgba(255, 74, 74, 0.45)',
-  'rgba(250, 111, 111, 0.45)',
-  'rgba(255, 243, 79, 0.45)',
-  'rgba(73, 248, 73, 0.45)',
-  'rgba(58, 225, 255, 0.45)',
-  'rgba(199, 0, 199, 0.45)',
-  'rgba(199, 71, 199, 0.45)',
-  'rgba(110, 230, 252, 0.45)',
-  'rgba(89, 255, 89, 0.45)',
-  'rgba(252, 250, 105, 0.45)',
-  'rgba(250, 203, 116, 0.45)',
-  'rgba(250, 111, 111, 0.45)'
+  'rgba(255, 74, 74, 0.15)',
+  'rgba(250, 111, 111, 0.15)',
+  'rgba(255, 243, 79, 0.15)',
+  'rgba(73, 248, 73, 0.15)',
+  'rgba(58, 225, 255, 0.15)',
+  'rgba(199, 0, 199, 0.15)',
+  'rgba(199, 71, 199, 0.15)',
+  'rgba(110, 230, 252, 0.15)',
+  'rgba(89, 255, 89, 0.15)',
+  'rgba(252, 250, 105, 0.15)',
+  'rgba(250, 203, 116, 0.15)',
+  'rgba(250, 111, 111, 0.15)'
 ]
 
 const drawEdge = (p5: p5Types, p1: r2pt, p2: r2pt): void => {
@@ -77,6 +77,7 @@ const Canvas = ({ width, height, speed, selectedPlanes, rotation }: PropTypes): 
     p5.scale(1, -1)
 
     p5.background('#ebebeb')
+    p5.background('#D4D491')
 
     const pts: r2pt[] = []
 
